@@ -13,7 +13,7 @@ npm install node-ldap
 
 ```javascript
 
-var LdapClient = RedisClient('node-ldap');
+var LdapClient = require('node-ldap');
 
 var client = new LdapClient({
     ldapUrl: 'ldap://192.168.1.81:389',
